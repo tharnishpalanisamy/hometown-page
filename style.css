@@ -1,6 +1,7 @@
 body{
     text-align: center;
     background: linear-gradient(#a2d2ff , pink);
+
 }
 h2{
     color: blue;
@@ -47,6 +48,7 @@ h2{
     margin-right: 50px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background: linear-gradient(#ffc8dd,#caffbf);
 }
 .p{
