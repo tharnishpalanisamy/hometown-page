@@ -1,0 +1,121 @@
+body{
+    text-align: center;
+    background: linear-gradient(#a2d2ff , pink);
+}
+h2{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+    width: 1500px;
+    height: 600px;
+    background-image: url("images/coimbatore.jpg");
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0px 0px 3px #000000;
+    background-color: #a2d2ff;
+}
+
+.btn{
+    color:black;
+    background-color: skyblue;   
+    font-family: Arial, Helvetica, sans-serif; 
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+#description{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+    width: 400px;
+}
+#img1 , #img2 , #img3{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    background-size: cover;
+}
+.body{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(#ffc8dd,#caffbf);
+}
+.p{
+    width: 150px;
+}
+
+.my-img{
+    width: 140px;
+    height: 150px;
+    border: #a2d2ff 6px solid;
+    border-bottom: #EFB0C9 6px solid;
+}
+
+#guide{
+    margin-top: 30px;
+    border: 6px solid whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 250px;
+    margin-left: auto   ;
+    margin-right: auto;
+    background: linear-gradient(#a2d2ff ,cyan);
+    border-radius: 6px;
+    border-bottom: rosybrown 6px solid;
+}
+
+#img1{
+    background-image: url("images/falls.webp");
+}
+#img2{
+    background-image: url("images/Isha.webp");
+}
+#img3{
+    background-image: url("images/valparai.webp");
+}
+
+
+#img1:hover{
+    width: 400px;
+    height: 400px;
+    background-image: url("images/falls.webp");
+    background-size: cover;
+    border-radius: 0%;
+
+}
+#img2:hover{
+    width: 400px;
+    height: 400px;
+    background-image: url("images/Isha.webp");
+    background-size: cover;
+    border-radius: 0%;
+
+}
+#img3:hover{
+    width: 400px;
+    height: 400px;
+    background-image: url("images/valparai.webp");
+    background-size: cover;
+    border-radius: 0%;
+
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
