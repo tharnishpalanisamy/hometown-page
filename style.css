@@ -9,7 +9,7 @@ h2{
 }
 #header {
     max-width: 100%;
-    height: auto;
+    height: 400px;
     background-image: url("images/coimbatore.jpg");
     background-size: cover;
     background-position: center;
@@ -31,6 +31,7 @@ h2{
     border: none;
     border-radius: 6px;
     font-weight: bold;
+    font-size: 25px;
 }
 #description{
     font-family: Arial, Helvetica, sans-serif;
@@ -62,6 +63,7 @@ h2{
 
 .p{
     width: 150px;
+    font-size: 20px;
 }
 
 .my-img{
