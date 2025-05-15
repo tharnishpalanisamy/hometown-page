@@ -42,15 +42,20 @@ h2{
     border: 6px solid #EFB0C9;
     background-size: cover;
 }
-.body{
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+.body {
+    margin: 50px auto;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    background: linear-gradient(#ffc8dd,#caffbf);
+    gap: 30px; 
+    background: linear-gradient(#ffc8dd, #caffbf);
+    max-width: 1000px;
+    padding: 20px;
+    border-radius: 10px;
 }
+
+
 .p{
     width: 150px;
 }
